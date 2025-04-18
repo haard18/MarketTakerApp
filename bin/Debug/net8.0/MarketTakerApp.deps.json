@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MarketTakerApp/1.0.0": {
+        "dependencies": {
+          "QuickFIXn.FIX4.4": "1.13.0"
+        },
+        "runtime": {
+          "MarketTakerApp.dll": {}
+        }
+      },
+      "QuickFIXn.Core/1.13.0": {
+        "runtime": {
+          "lib/net8.0/QuickFix.dll": {
+            "assemblyVersion": "1.13.0.0",
+            "fileVersion": "1.13.0.0"
+          }
+        }
+      },
+      "QuickFIXn.FIX4.4/1.13.0": {
+        "dependencies": {
+          "QuickFIXn.Core": "1.13.0"
+        },
+        "runtime": {
+          "lib/net8.0/QuickFix.FIX44.dll": {
+            "assemblyVersion": "1.13.0.0",
+            "fileVersion": "1.13.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MarketTakerApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QuickFIXn.Core/1.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G4hnZE2Zd53rfYydZkm5UTrrhRhHbFnT4VvCBED7sqtGZ6Nl4MIaRkb7i3yiRGFfqEOBiLnmlXjkSjJnPnvV1w==",
+      "path": "quickfixn.core/1.13.0",
+      "hashPath": "quickfixn.core.1.13.0.nupkg.sha512"
+    },
+    "QuickFIXn.FIX4.4/1.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KDu/uApDluUyt/VXINghbW9+qO/LVrQpd7/QLTPh8rm67iCFi+u4Hoq6qxIjt5VLT68vpOnzY9hLTwF6P/Q+Gw==",
+      "path": "quickfixn.fix4.4/1.13.0",
+      "hashPath": "quickfixn.fix4.4.1.13.0.nupkg.sha512"
+    }
+  }
+}
