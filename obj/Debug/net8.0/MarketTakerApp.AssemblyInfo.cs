@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MarketTakerApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c71b2bd77733b750c2e73ee2ee8834781b5fc7d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MarketTakerApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MarketTakerApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
